@@ -44,6 +44,57 @@
         </div>
     </header>
 
+<!-- FORM TAMBAH MENU -->
+<div class="col-span-full bg-white shadow-sm p-4 rounded-lg">
+    <h2 class="text-lg font-semibold mb-4">Tambah Menu</h2>
+    <br><br><br><br>
+
+    <form id="menuForm" class="space-y-3">
+        <input
+            type="text"
+            id="menuName"
+            placeholder="Nama makanan"
+            class="w-full border p-2 rounded"
+            required
+        >
+
+        <input
+            type="number"
+            id="menuPrice"
+            placeholder="Harga"
+            class="w-full border p-2 rounded"
+            required
+        >
+
+        <input
+            type="text"
+            id="menuImage"
+            placeholder="Link gambar"
+            class="w-full border p-2 rounded"
+            required
+        >
+
+        <textarea
+            id="menuDescription"
+            placeholder="Deskripsi"
+            class="w-full border p-2 rounded"
+            required
+        ></textarea>
+
+        <button
+            type="submit"
+            class="bg-emerald-600 text-white px-4 py-2 rounded"
+        >
+            Tambah Menu
+        </button>
+    </form>
+</div>
+
+<!-- CARD BARU AKAN MASUK DI SINI -->
+<div id="menuContainer" class="contents"></div>
+
+
+
     <main class="pt-36 sm:pt-40 md:pt-44 max-w-6xl mx-auto px-4 sm:px-6 pb-12 w-full">
 
         <!-- ===== SECTION BERANDA (HERO SECTION) ===== -->
@@ -254,12 +305,14 @@ feature/js-favorite-khalysa
 
     </main>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script> 
+    
 </body>
 </html>
 
-        <!-- ===== CARD 2 - Zhalikhah Khairunnisa ===== -->
+        <!-- ===== CARD 2 - Zalikhah Khairunnisa ===== -->
         <!-- Silakan membuat elemen <article> atau <div> untuk card di bawah komentar ini -->
+           
 
 
 
@@ -325,8 +378,6 @@ feature/js-favorite-khalysa
        <!-- ===== CARD 6 - Muhammad Iqbal Yahya ===== -->
         <!-- Silakan membuat elemen <article> atau <div> untuk card di bawah komentar ini -->
        
-      
- main
     <footer class="bg-gray-800 text-white text-center py-4 mt-auto">
         <p>&copy; 2026 Tim King Slayer - Informatics Summit Bootcamp 2</p>
     </footer>
