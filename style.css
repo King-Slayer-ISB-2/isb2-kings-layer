@@ -1,0 +1,45 @@
+/* Posisi tombol di kanan atas */
+#theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  z-index: 1000;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 999px;
+  background-color: #0f9d63;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#theme-toggle:hover {
+  opacity: 0.9;
+}
+
+/* Transisi halus */
+body, header, .card {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode header {
+  background-color: #1a1a1a;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+body.dark-mode #theme-toggle {
+  background-color: #f1c40f;
+  color: #222;
+}
