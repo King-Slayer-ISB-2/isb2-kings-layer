@@ -1,4 +1,4 @@
-const favoriteButtons = document.querySelector('.favorite-btn');
+const favoriteButtons = document.querySelectorAll('.favorite-btn');
 
 favoriteButtons.forEach((button) => {
     button.addEventListener('click', () => {
